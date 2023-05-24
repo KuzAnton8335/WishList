@@ -127,9 +127,6 @@
 	outline: none;
 }
 
-.edit__select_currency {
-}
-
 .edit__description {
 	border: none;
 	margin-bottom: 68px;
@@ -145,9 +142,6 @@
 	background-color: #fff;
 	border: 3px solid #365aba;
 	border-radius: 15px;
-}
-
-.edit_wish {
 }
 
 .edit__wish {
@@ -166,9 +160,6 @@
 	display: flex;
 	gap: 36px;
 	align-items: flex-end;
-}
-
-.edit__label-select {
 }
 
 .edit__select_currency {
@@ -208,13 +199,4 @@
 
 .edit__submit-btn:last-child {
 	margin-right: 0;
-}
-
-.edit__delete-btn {
-}
-
-.edite__label {
-}
-
-.button__edit {
 }
