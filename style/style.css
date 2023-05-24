@@ -78,4 +78,25 @@ p {
 	background-color: #fff;
 	color: #365aba;
 	border-radius: 15px;
+	cursor: pointer;
+	font-size: 34px;
+}
+
+.btn_castlink {
+	background-color: #365aba;
+	color: #fff;
+}
+
+/* !todo */
+
+.hero {
+	display: none;
+}
+
+.wishlist {
+	display: none;
+}
+
+.edit {
+	display: block;
 }
