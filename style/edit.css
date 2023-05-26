@@ -38,7 +38,7 @@
 	gap: 2px;
 	align-items: center;
 	font-size: 38px;
-	margin-bottom: 11px;
+	margin-bottom: 12px;
 	cursor: pointer;
 }
 
@@ -199,4 +199,243 @@
 
 .edit__submit-btn:last-child {
 	margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+	.edit__avatar {
+		margin-bottom: 56px;
+	}
+	.edit__avatar-image {
+		max-width: 466px;
+		margin-right: 34px;
+	}
+
+	.edit__name {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 40px;
+		margin-bottom: 30px;
+	}
+
+	.edit__birthdate {
+		margin-bottom: 40px;
+	}
+
+	.edit__description-input {
+		min-height: 311px;
+	}
+
+	.edit__description {
+		margin-bottom: 40px;
+	}
+
+	.edit__submit-btn {
+		margin-right: 18px;
+	}
+	.button__edit__submint-btn {
+		margin-left: 20px;
+	}
+
+	.edit_wish {
+		padding-top: 100px;
+	}
+
+	.edit__wish {
+		grid-template-columns: 1fr;
+	}
+
+	.edit__wish-photo {
+		margin-bottom: 114px;
+	}
+
+	.edit__label {
+		max-width: 694px;
+	}
+}
+
+@media (max-width: 992px) {
+	.edit {
+		padding-bottom: 80px;
+	}
+	.edit__avatar {
+		margin-bottom: 64px;
+	}
+	.edit__avatar-image {
+		max-width: 340px;
+		margin-right: 25px;
+	}
+
+	.edit__icon-avatar {
+		flex: 1 0 30px;
+	}
+
+	.edit__label-avatar {
+		font-size: 24px;
+		gap: 5px;
+	}
+
+	.edit__avatar-delete {
+		font-size: 24px;
+		gap: 5px;
+	}
+
+	.edit__name {
+		gap: 44px;
+		margin-bottom: 44px;
+	}
+
+	.edit__birthdate {
+		margin-bottom: 44px;
+	}
+
+	.edit__discription-input {
+		min-height: 503px;
+	}
+
+	.edit__description {
+		margin-bottom: 62px;
+	}
+
+	.edit__submit-btn {
+		margin-right: 18px;
+	}
+	.button__edit__submint-btn {
+		margin-left: 20px;
+	}
+
+	.edit_wish {
+		padding-top: 100px;
+	}
+
+	.edit__wish-photo {
+		margin-bottom: 62px;
+	}
+
+	.edite__label {
+		max-width: 694px;
+	}
+
+	.edit__submit_wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 44px 18px;
+	}
+}
+
+@media (max-width: 740px) {
+	.edit {
+		padding-top: 16px;
+		padding-bottom: 46px;
+	}
+	.edit__avatar {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 32px;
+	}
+	.edit__avatar-image {
+		max-width: 160px;
+		margin-right: 0;
+		margin-bottom: 16px;
+	}
+
+	.edit__icon-avatar {
+		flex-basis: 16px;
+	}
+
+	.edit__label-avatar {
+		font-size: 14px;
+		gap: 6px;
+		justify-content: center;
+	}
+
+	.edit__avatar-delete {
+		font-size: 14px;
+		gap: 6px;
+		justify-content: center;
+	}
+
+	.edit__icon-avatar {
+		width: 16px;
+	}
+
+	.edit__input {
+		font-size: 20px;
+		height: 47px;
+		padding: 0 18px;
+	}
+
+	.edit__name {
+		gap: 24px;
+		margin-bottom: 24px;
+	}
+
+	.edit__label-text {
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 12px;
+	}
+
+	.edit__birthdate {
+		margin-bottom: 0;
+	}
+
+	.edit__discription-input {
+		min-height: 288px;
+	}
+
+	.edit__description {
+		margin-bottom: 32px;
+	}
+
+	.edit__submit-btn {
+		margin-right: 18px;
+	}
+	.button__edit__submint-btn {
+		margin-left: 20px;
+	}
+
+	.edit_wish {
+		padding-top: 0;
+	}
+
+	.edit__select {
+		border-radius: 8px;
+		font-size: 20px;
+		line-height: 23px;
+		color: #282828;
+		padding: 12px 27px 12px 18px;
+		outline: none;
+	}
+
+	.edite__label_select::after {
+		width: 18px;
+		height: 18px;
+	}
+
+	.edit__wish {
+		gap: 24px;
+	}
+	.edit__wish-photo {
+		margin-bottom: 32px;
+	}
+
+	.edit__wish-price {
+		gap: 14px;
+	}
+
+	.edit__label-photo {
+		width: 100%;
+	}
+
+	.edit__select_currency {
+		border-radius: 15px;
+	}
+
+	.edite__label {
+		max-width: 694px;
+	}
+
+	.edit__submit_wrapper {
+		gap: 24px;
+	}
 }

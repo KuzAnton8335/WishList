@@ -25,5 +25,65 @@
 	text-align: center;
 	margin-bottom: 135px;
 }
-.hero__steps {
+
+@media (max-width: 1700px) {
+	.hero__title {
+		font-size: 200px;
+		margin-bottom: 12px;
+	}
+
+	.hero__descr {
+		font-size: 42px;
+		max-width: 860px;
+		margin-bottom: 66px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.hero {
+		padding: 32px 0;
+	}
+
+	.hero__title {
+		font-size: 150px;
+		line-height: 170px;
+		margin-bottom: 0;
+	}
+
+	.hero__descr {
+		font-size: 36px;
+		line-height: 42px;
+		max-width: 770px;
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 992px) {
+	.hero__title {
+		font-size: 118px;
+		line-height: 134px;
+	}
+
+	.hero__descr {
+		font-size: 26px;
+		max-width: 590px;
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 740px) {
+	.hero__title {
+		font-size: 96px;
+		line-height: 94.83%;
+		margin-bottom: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.hero__descr {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 54px;
+	}
 }
