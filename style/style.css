@@ -87,19 +87,7 @@ p {
 	color: #fff;
 }
 
-/* !todo */
 
-.hero {
-	display: block;
-}
-
-.wishlist {
-	display: block;
-}
-
-.edit {
-	display: block;
-}
 
 @media (max-width: 1700px) {
 	.container {
