@@ -19,6 +19,7 @@
 @media (max-width: 992px) {
 	.nav {
 		position: absolute;
+		z-index: -1;
 		top: 130px;
 		left: 0;
 		right: 0;
@@ -28,7 +29,7 @@
 		min-height: 240px;
 		flex-direction: column;
 		justify-content: center;
-		transform: translateY(calc(-100% - 130px));
+		transform: translateY(calc(-120% - 130px));
 		transition: transform 0.5s ease-out;
 	}
 
@@ -51,6 +52,6 @@
 		top: 66px;
 		min-height: 290px;
 		padding: 56px 20px;
-		transform: translateY(calc(-100% - 60px));
+		transform: translateY(calc(-120% - 60px));
 	}
 }
